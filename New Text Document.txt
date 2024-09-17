@@ -1,0 +1,11 @@
+int num, power;
+string temp;
+
+Console.Write("Please enter a number: ");
+temp = Console.ReadLine();
+num = Convert.ToInt32(temp)
+Console.Write("Please enter an exponent: ");
+temp = Console.ReadLine();
+power = Convert.ToInt32(temp);
+Console.WriteLine($"{num}^{power} = "+Math.Pow(num, power));
+Console.ReadLine();
